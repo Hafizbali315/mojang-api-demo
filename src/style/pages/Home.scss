@@ -1,0 +1,31 @@
+.home {
+	width: 100%;
+	min-height: calc(100vh - 70px);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.home__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		input {
+			height: 40px;
+			width: 300px;
+			padding: 0 15px;
+			border-radius: 10px;
+		}
+
+		button {
+			height: 40px;
+			background: rgb(35, 35, 192);
+			border: none;
+			padding: 0 30px;
+			cursor: pointer;
+			border-radius: 10px;
+			color: #fff;
+		}
+	}
+}
